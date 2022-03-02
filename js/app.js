@@ -22,8 +22,7 @@ const searchField = () => {
     if (phone.length == 0) {
       const error404 = document.createElement("div");
       error404.innerHTML = `
-        <h1 class="text-center text-danger"> result Not Found 404 !!!</h1>
-        <p class="text-center text-danger">You find the right information !!!</p>
+        <p class="text-center text-danger">You find the right information !!</p>
         `;
       errorHandel.appendChild(error404);
     } else {
