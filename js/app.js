@@ -125,3 +125,8 @@ const searchField = () => {
       `;
     moreOthersDetails.appendChild(div);
   };
+
+  const isVariy = true;
+  if(isVariy == true){
+      console.log('number is a valid')
+  }
