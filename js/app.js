@@ -123,5 +123,5 @@ const searchField = () => {
       }</p>
       
       `;
-    moreOthersDetails.ppendChild(div);
+    moreOthersDetails.appendChild(div);
   };
